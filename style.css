@@ -1,0 +1,399 @@
+body{
+background-color: rgb(223, 216, 236);
+}
+
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color:  rgb(141, 141, 255);
+}
+.nav-link {
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: rgb(141, 141, 255);
+}
+
+.h1-mktg{
+    color: rgb(157, 169, 182);
+    font-weight: bolder;
+    font-size: 320%;
+     text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.f2-mktg{
+    color: rgb(142, 159, 177);
+    font-weight: 900;
+    font-size: 150%;
+    text-transform: capitalize;
+    font-family:Times, serif;
+}
+#main{
+    background-color: black;
+}
+
+
+.btn{
+    width: 250px;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color:black;
+    background-color: rgb(141, 141, 255);
+    border-color: rgb(141, 141, 255);
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900; 
+}
+
+.install{
+    color: white;
+    text-decoration-line: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.install:hover{
+    color: rgb(141, 141, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.container{
+    color: white;
+}
+
+.context{
+     color: rgb(2, 2, 2);
+    font-weight: 900;
+    font-size: 320%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.Goodbye{
+background-color: white;
+}
+
+.h5-mktg {
+     color: black;
+    font-weight: bold;
+    font-size: smalls;
+     text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.f6-mktg{
+    color: blue;
+    text-decoration-line: none;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f6-mktg:hover{
+    color: green;
+    font-weight: bold;
+    text-decoration-line: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.instruction{
+    color: black;
+    text-decoration-line: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instruction:hover{
+    color: rgb(21, 21, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.button{
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color:rgb(2, 112, 255);
+   color: black;
+   border-color: rgb(2, 112, 255);
+    cursor: pointer;
+    font-size: large;
+}
+
+.card-title{
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+}
+
+
+.card-text{
+    font-size: 100%;
+    color: black;
+}
+
+.position-relative{
+    background-image: url(image/square-pattern.png) ;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+.h5-mktg{
+font-size:900;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+
+
+
+.footer {
+    background-color: white;
+}
+
+footer h5,
+footer ul li {
+   
+    color: black;
+    align-items: end;
+}
+
+
+footer ul {
+    padding-left: 0;
+}
+
+footer .col-md-3 {
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 18px; 
+}
+*/
+footer ul li {
+    font-size: 14px; 
+    margin-bottom: 5px;
+}
+
+footer ul li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.main-footer {
+  
+    padding: 0 0; 
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center; 
+}
+
+.footer-links li {
+    display: flex;
+ justify-content: center ;
+  align-items:  center ;
+    margin-left: 15px; 
+
+}
+
+.footer-links li:first-child {
+    margin-left: 0; 
+}
+
+.footer-links a {
+    color: black;
+    font-size: small;
+    text-decoration: none; 
+}
+
+.col-md-6{
+    color: black;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; 
+}
+
+.social-links {
+    margin-left: 20px; 
+}
+
+.social-links a {
+    display: inline-block; 
+    margin-left: 8px; 
+}
+
+
+
+
+
+
+
+
+
+
+.issue{
+    background-color: rgb(52, 52, 88);
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+.dol{
+    color: rgb(42, 255, 70);
+}
+.issue  h2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0.3;
+    }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.container-5 {
+    height: 70vh;
+   background-color: rgb(52, 52, 88);
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.terminal {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    max-width: 900px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.terminal::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background-color: black;
+    color: #c2c3c4;
+    width: 900px;
+    font-size: 4rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 15px;
+}
+
+.terminal pre {
+    display: flex;
+    flex-direction: row;
+    font-family: monospace;
+    color: rgb(214, 212, 212);
+    padding: 0 1rem 1rem;
+    margin: 0;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.terminal pre p {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(50, end) infinite, blink  infinite;
+}
+
+.start {
+    display: block;
+    padding: 1px 0px;
+    background-color: blue;
+}
+
+.blue {
+    display: block;
+    padding: 1px 0px;
+    color: rgb(90, 90, 241);
+}
+
+.green {
+    padding: 1px 0px;
+    color: rgb(18, 221, 18);
+    animation: blink 0.5s infinite;
+}
